@@ -1,0 +1,77 @@
+
+.container h1 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.section {
+    padding: 2em 4em 0 4em;
+}
+
+.containerInput {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    font-style: italic;
+}
+
+.input:focus-visible {
+    border: none;
+    outline: #0062ff solid 3px;
+}
+
+.inputTel {
+    border-radius: 5px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    font-style: italic;
+}
+
+.inputTel::placeholder {
+    padding-left: 2em;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    font-size: 0.6em;
+    position: absolute;
+    bottom:-1.5em;
+    left: 0;
+    white-space: nowrap;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.politika, .politika a {
+    color: #848d98;
+    font-size: 0.5em;
+}
+
+.politika {
+    margin: 0.5em 0 1em 0;
+}

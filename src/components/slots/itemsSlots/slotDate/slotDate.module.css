@@ -1,0 +1,41 @@
+.slot {
+  padding: 1em 2em;
+  border-radius: 15px;
+  border: 1px solid #e5e7eb;
+}
+
+.baseSlot {
+  cursor: pointer;
+}
+
+.baseSlot:hover {
+  border: 1px solid #0046e2;
+}
+
+.disable {
+  background-color: #e5e7eb;
+  color: #b0b5bd;
+}
+
+.selected {
+  background-color: #0132b0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  font-size: 2em;
+}
+
+.text {
+  font-weight: 500;
+}
+
+.number {
+  margin-top: 6px;
+  font-weight: bold;
+}

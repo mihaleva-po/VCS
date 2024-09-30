@@ -1,0 +1,17 @@
+.dialog {
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid #0132b0;
+}
+
+.dialog p {
+    padding: 0 2em 2em;
+    font-weight:bold;
+}
+
+.dialog button {
+    margin: 1em;
+    padding: 0;
+    color: black;
+    background-color: white;
+}

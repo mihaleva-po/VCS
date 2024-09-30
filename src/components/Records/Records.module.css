@@ -1,0 +1,28 @@
+.records {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.records h1 {
+    margin-top: 3em;
+}
+
+.date {
+    font-size: 1.5em;
+}
+
+.containerDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    position: relative;
+    border-radius: 15px;
+    border: 1px solid #0062ff;
+    gap: 1em;
+}
+
+.containerDate img {
+    width: 2em;
+}

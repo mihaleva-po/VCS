@@ -1,0 +1,44 @@
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemsDateSlots::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.itemsDateSlots {
+  width: 90vw;
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+}
+
+.itemsTimeSlots {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.time:hover {
+  border: 1px solid #0046e2;
+}
+
+.blockTime {
+  padding: 0.5em;
+  border-radius: 15px;
+  border: 1px solid #e5e7eb;
+  font-size: 1.5em;
+  white-space: nowrap;
+}
+
+.disable {
+  background-color: #e5e7eb;
+  color: #b0b5bd;
+}
+
+.selected {
+  background-color: #0132b0;
+  color: white;
+}

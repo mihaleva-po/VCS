@@ -1,0 +1,15 @@
+.text {
+    overflow-y: scroll;
+    text-align: left;
+    font-size: 1em;
+}
+
+.instruction {
+    padding: 1em 2em;
+}
+
+.text ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+ }

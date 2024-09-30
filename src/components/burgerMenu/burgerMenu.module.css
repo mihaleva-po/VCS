@@ -1,0 +1,49 @@
+.burgerIcon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.menu .exit {
+    color: #D63F09;
+}
+
+.menu {
+    z-index: 1;
+    position: absolute;
+    top: 3em;
+    right: 2em;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: left;
+    border-bottom: 1px solid #0062ff;
+    cursor: pointer;
+    transition: color 0.5s linear, font-size 0.5s linear;
+}
+
+.menu a:last-child {
+    border-bottom: none;
+}
+
+.menu a:hover {
+    color: #0132b0;
+    font-size: 1.1em;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.open {
+    display: flex;
+}

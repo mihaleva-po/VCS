@@ -1,0 +1,61 @@
+.container h1 {
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 20px;
+}
+
+.containerInput {
+    position: relative;
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+.containerInput img {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 2em;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 0.3em;
+    font-style: italic;
+}
+
+.input:focus-visible {
+    border: none;
+    outline: #0062ff solid 3px;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    font-size: 1em;
+}
+
+.form button {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
